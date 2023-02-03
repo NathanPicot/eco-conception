@@ -21,38 +21,14 @@
 
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
-        google.charts.load('current', {'packages': ['corechart']});
-        google.charts.setOnLoadCallback(drawChart);
 
-        function drawChart() {
-
-            var data = google.visualization.arrayToDataTable([
-                ['Website', '%'],
-                ['your website',   8  ],
-                ['other',    8]
-
-            ]);
-
-            var options = {
-                title: 'Plus propre que 8 % des site'
-            };
-
-            var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-
-            chart.draw(data, options);
-        }
     </script>
 
 
 </head>
 <body>
 
-<div class="" id="loader">
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-</div>
+
 
 
 <div class="form">
@@ -70,15 +46,18 @@
 
 
 
-
+    <div>
+        <label id="resultat"></label>
+    </div>
     <div class='result'>
         <label id="url"> url : </label>
     </div>
+
     <div class='result'>
         <div id="piechart"></div>
     </div>
     <div class='result'>
-        <label> rejette : grammes de co2 a chaque chargement de page </label>
+        <label id="co2"></label>
     </div>
 
 

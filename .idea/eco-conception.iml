@@ -4,7 +4,7 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="@popperjs/core" level="application" />
-    <orderEntry type="library" name="loader" level="application" />
+    <orderEntry type="module" module-name="getApi" />
+    <orderEntry type="module" module-name="handsonprojet2022-hnm" />
   </component>
 </module>
