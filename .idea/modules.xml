@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/eco-conception.iml" filepath="$PROJECT_DIR$/.idea/eco-conception.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../getApi/.idea/getApi.iml" filepath="$PROJECT_DIR$/../getApi/.idea/getApi.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../handsonprojet2022-hnm/.idea/handsonprojet2022-hnm.iml" filepath="$PROJECT_DIR$/../handsonprojet2022-hnm/.idea/handsonprojet2022-hnm.iml" />
     </modules>
   </component>
 </project>

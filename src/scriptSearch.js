@@ -1,4 +1,5 @@
 function verifyURI() {
+
     let pattern = /^(https?|chrome):\/\/[^\s$.?#].\S*$/gm;
     let uri = document.getElementById("uri").value;
     let result = pattern.test(uri);
@@ -54,7 +55,7 @@ async function getAPI(uri) {
 
 
 
-
+            loader()
         })
         .catch(error => {
             document.getElementById('url').innerHTML = "l'url :" + uri + " est invalide";
@@ -62,7 +63,23 @@ async function getAPI(uri) {
             document.getElementById('co2').innerHTML = "";
 
             console.error(error);
+            loader()
         });
+
+
+}
+
+function loader(){
+
+    if(document.getElementById("loader").style.display == "inline-block"){
+        document.getElementById("loader").style.display = "none"
+        document.getElementById('input_submit').className = "input_submit btn ";
+
+    }else{
+
+        document.getElementById("loader").style.display = "inline-block"
+        document.getElementById('input_submit').className += " disabled ";
+    }
 
 }
 

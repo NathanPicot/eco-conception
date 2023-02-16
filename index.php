@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/StyleSearch.css">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
             integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
             crossorigin="anonymous"></script>
@@ -21,12 +20,16 @@
 
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
-
     </script>
+    <script src="src/scriptNavbar.js"></script>
 
 
 </head>
-<body>
+<body >
+
+<?php
+    require 'navbar/navbar.php';
+?>
 
 
 
@@ -36,13 +39,18 @@
         <input type="text" class="input_search" id="uri" name="url">
     </div>
     <div>
-        <button id="input_submit" class="input_submit btn" onclick="verifyURI()">Submit</button>
+        <button id="input_submit" class="input_submit btn " onclick="loader(); verifyURI();">Submit</button>
     </div>
 </div>
 
 
 
-
+<div class="lds-ring" id="loader">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
 
 
 
