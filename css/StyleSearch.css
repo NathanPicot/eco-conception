@@ -1,13 +1,13 @@
-.result{
+.result {
     margin-left: 33%;
 }
 
-.form{
+.form {
     margin-left: 33%;
     width: 33%;
 }
 
-.input_submit{
+.input_submit {
     margin-top: 5px;
     width: 50%;
     margin-left: 25%;
@@ -16,7 +16,7 @@
     background-color: darkolivegreen !important;
 }
 
-.input_search{
+.input_search {
     border-radius: 5px;
     margin-top: 10%;
     height: 35px;
@@ -39,6 +39,7 @@
     backdrop-filter: blur(15px) grayscale(0.5) opacity(0.8);
 
 }
+
 .lds-ring div {
     box-sizing: border-box;
     display: block;
@@ -51,15 +52,19 @@
     animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
     border-color: darkolivegreen transparent transparent transparent;
 }
+
 .lds-ring div:nth-child(1) {
     animation-delay: -0.45s;
 }
+
 .lds-ring div:nth-child(2) {
     animation-delay: -0.3s;
 }
+
 .lds-ring div:nth-child(3) {
     animation-delay: -0.15s;
 }
+
 @keyframes lds-ring {
     0% {
         transform: rotate(0deg);
@@ -70,11 +75,11 @@
 
 }
 
-#loader{
+#loader {
     display: none;
 }
 
-#piechart{
+#piechart {
     width: 600px;
     height: 500px;
-    }
+}

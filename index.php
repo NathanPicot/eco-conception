@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -25,13 +24,11 @@
 
 
 </head>
-<body >
+<body>
 
 <?php
-    require 'navbar/navbar.php';
+require 'navbar/navbar.php';
 ?>
-
-
 
 
 <div class="form">
@@ -44,7 +41,6 @@
 </div>
 
 
-
 <div class="lds-ring" id="loader">
     <div></div>
     <div></div>
@@ -53,23 +49,19 @@
 </div>
 
 
+<div>
+    <label id="resultat"></label>
+</div>
+<div class='result'>
+    <label id="url"> url : </label>
+</div>
 
-    <div>
-        <label id="resultat"></label>
-    </div>
-    <div class='result'>
-        <label id="url"> url : </label>
-    </div>
-
-    <div class='result'>
-        <div id="piechart"></div>
-    </div>
-    <div class='result'>
-        <label id="co2"></label>
-    </div>
-
-
-
+<div class='result'>
+    <div id="piechart"></div>
+</div>
+<div class='result'>
+    <label id="co2"></label>
+</div>
 
 
 </body>

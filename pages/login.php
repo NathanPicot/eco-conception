@@ -21,7 +21,7 @@
         <label>
             <input placeholder="Password" class="form-control">
         </label>
-        <button type="submit" class="input_submit btn btn-primary ">CONNEXION </button>
+        <button type="submit" class="input_submit btn btn-primary ">CONNEXION</button>
     </form>
 </div>
 </body>
