@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/eco-conception.iml" filepath="$PROJECT_DIR$/.idea/eco-conception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../getApi/.idea/getApi.iml" filepath="$PROJECT_DIR$/../getApi/.idea/getApi.iml" />
     </modules>
   </component>
 </project>

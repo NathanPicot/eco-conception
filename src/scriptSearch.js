@@ -7,6 +7,7 @@ function verifyURI() {
     if (result === false) {
 
         document.getElementById('url').innerHTML = "l'url : " + uri + " est invalide";
+        loader();
     } else {
         document.getElementById('url').innerHTML = "url = " + uri;
         getAPI(uri).then(data => console.log());
