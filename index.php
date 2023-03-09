@@ -30,8 +30,16 @@
 require 'navbar/navbar.php';
 ?>
 
+<div>
+    <a class="navbar-brand mt-2 mt-lg-0" href="#">
+        <img src="images/logofinal.png" class="logo" height="55" alt="Ecoflow" loading="lazy"/>
+    </a>
+</div>
+
+
 
 <div class="form">
+
     <div>
         <input type="text" class="input_search" id="uri" name="url">
     </div>

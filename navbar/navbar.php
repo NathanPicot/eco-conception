@@ -22,16 +22,6 @@
         <i class="fas fa-bars"></i>
 
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <a class="navbar-brand mt-2 mt-lg-0" href="#">
-                <img src="images/logofinal.png" class="logo" height="55" alt="Ecoflow" loading="lazy"/>
-            </a>
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Accueil</a>
-                </li>
-            </ul>
-        </div>
     </div>
     <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
